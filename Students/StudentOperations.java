@@ -20,6 +20,10 @@ class StudentOperations{
             		return;
         		}
 	
+			for(Student student : students){
+				student.display();
+			}
+		}
 }
 
 
