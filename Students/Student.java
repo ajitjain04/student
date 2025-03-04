@@ -58,4 +58,9 @@ class Student {
     }
 
   
+    public void display() {
+        System.out.println("Name: " + getName() + ", PRN: " + getPRN() +
+                           ", Branch: " + getBranch() + ", Batch: " + getBatch() +
+                           ", CGPA: " + getCGPA());
+    }
 }
