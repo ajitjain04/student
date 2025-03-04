@@ -14,6 +14,12 @@ class StudentOperations{
 		
 		}
 		
+		public void displayStudents(){
+			if (students.isEmpty()) {
+            		System.out.println("No students available to display.");
+            		return;
+        		}
+	
 }
 
 
